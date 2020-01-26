@@ -2,7 +2,8 @@ import CalculatorModule
 
 print("\n")
 print("------------------------------------------------------------------------")
-print("__name__ function have two work to done")
+print("__name__ is a special variable in Python")
+print("__name__ variable have two work to done")
 print("1 : if we run particular file and its have __name__ in this file , it will return __main__ , because"
       "this file is the entry gate for the module")
 print("2 : if __name__ written in any imported module , so it will return module name (means file name of imported file)")
