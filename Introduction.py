@@ -9,3 +9,8 @@ print("Python"
 
 print("We can run python on REPl using command Python fileName")
 print("We can run pythin in multiple IDE's like Pycharm and all.")
+
+print("Comments")
+print("For comments in python we need to use #(hash Command)")
+print("For Multiline comments we need to use three double quotes staring and end")
+print("But in Python three double quotes is using for documentation purpose")
