@@ -64,3 +64,20 @@ def fooWithList(func,lst):
 lst = [1, 2, 2.5]
 print(fooWithList(math.sin,lst))
 print(fooWithList(math.cos,lst))
+
+
+print("Example of dacorator")
+def func1(func3):
+    def func2():
+        print("Hello World")
+        func3()
+    return func2
+
+def func4():
+    print("hello Python")
+
+func5 = func1(func4)
+func5()
+
+
+
