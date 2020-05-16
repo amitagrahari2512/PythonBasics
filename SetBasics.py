@@ -6,4 +6,8 @@ print(s)
 s.add(102)
 print(s)
 
-#print(s[1]) error
+#print(s[1])
+
+a  = {5,6,7}
+a.update([3,4])
+print(a)
