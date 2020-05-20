@@ -13,6 +13,10 @@ print("We can use "
       "5 - And we can not use try,finally and except in this sequence")
 print("We can use else also, when no error in  try then else will execute.But order is try,except and else")
 
+print("Raise : Python also provides the raise keyword to be used in the context of exception handling. "
+      "It causes an exception to be generated explicitly. Built-in errors are raised implicitly. "
+      "However, a built-in or custom exception can be forced during execution.")
+
 print("\n----------------------------------")
 
 a = 5
@@ -109,3 +113,14 @@ finally:
 
 print("We can use else also, when error in  try then else will not execute.")
 
+print("Raise error")
+try:
+    x=int(input('Enter a number upto 100: '))
+    if x > 100:
+        raise ValueError(x)
+except ValueError:
+    print(x, "is out of allowed range")
+else:
+    print(x, "is within the allowed range")
+
+print("Raise Error")
