@@ -11,6 +11,7 @@ print("We can use "
       "3 - try , except sequence"
       "4 - But we can't use try alone"
       "5 - And we can not use try,finally and except in this sequence")
+print("We can use else also, when no error in  try then else will execute.But order is try,except and else")
 
 print("\n----------------------------------")
 
@@ -75,8 +76,36 @@ try:
     print("try")
 finally:
     print("finally")
-#except Exception e:
+#except Exception as e:
  #   print("Exception")
 print("\n--------------We can not use try,finally and except order")
 
+print("We can use else also, when no error in  try then else will execute.")
+
+try:
+    print("try")
+except Exception as e:
+    print("Exception")
+else:
+    print("else")
+finally:
+    print("Finally")
+
+print("We can use else also, when no error in  try then else will execute.")
+
+print("\nWe can use else also, when error in  try then else will not execute.")
+
+try:
+    print("try")
+    a = 10
+    b = 0
+    c = a/b
+except Exception as e:
+    print("Exception")
+else:
+    print("else")
+finally:
+    print("Finally")
+
+print("We can use else also, when error in  try then else will not execute.")
 
